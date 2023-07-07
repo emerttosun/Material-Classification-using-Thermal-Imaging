@@ -30,7 +30,7 @@ Various municipal solid waste objects made up of different materials like carton
 ## Creating a Dataset
 The entire dataset for this project was created from scratch. 
 
-Dataset is include videos which are recorded to heating and cooling processes of objects. Each data consists of approximately 25 seconds of video and each data has a 5 second initial display, a 10 second heating period, and 10 second cooling period. Afterwards temperature over time of each object is used for classification.
+Dataset is include videos which are recorded to heating and cooling processes of objects. Each data consists of approximately 25 seconds of video and each data has a 5 second initial display, a 10 second heating period, and 10 second cooling period. Afterwards temperature over time of each object is used for classification. We will publish our dataset in future for everyone.
 
 ## Obtaining Temperature Readings
 Thermal videos are collected in grayscale as RGB images do not provide additional information. Grayscale images are easier to store and process, simplifying the processing pipeline and improving algorithmic performance. 

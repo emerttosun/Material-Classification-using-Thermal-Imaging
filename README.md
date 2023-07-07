@@ -14,7 +14,7 @@ This project was carried out within the scope of Hacettepe University Electrical
   * [Used](#used)
   * [Authors](#authors)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'></a></i></small>
 ## Abstract
 The proposed method suggests an alternative approach to the classification step in mainstream recycling processes. It addresses the need for automation and cost-effectiveness in waste management due to the increasing population and waste generation. 
 The method involves an active heating unit comprising three thermal lamps and utilizes a FLIR T420 thermal camera. The objects to be classified are heated using the heating unit and then allowed to passively cool down. 

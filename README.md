@@ -11,6 +11,7 @@ This project was carried out within the scope of Hacettepe University Electrical
   * [Training Classifiers](#training-classifiers)
   * [Experimental Result](#experimental-result)
   * [Project Video](#project-video)
+  * [Project Report](#project-report)
   * [Used](#used)
   * [Authors](#authors)
 

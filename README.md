@@ -99,6 +99,10 @@ This is an expected result since the heat capacity of metal is the highest and t
 You can reach the our project videos here!
 https://youtu.be/0mC2CdkLAvA
 
+## Project Report
+If you want to reach more information about our project, you can read our project report.
+[Graduation Project Report.pdf](https://github.com/emerttosun/Material-Classification-using-Thermal-Imaging/files/11985769/Graduation.Project.Report.pdf)
+
 ## Used
 - Python
 - Scikit-learn

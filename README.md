@@ -22,7 +22,7 @@ Throughout this process, the thermal camera captures images for observation. The
 The primary goal of the proposed method is to automate the classification step in recycling while ensuring affordability and ease of implementation. The accuracy of the system is evaluated based on a dataset collected in the laboratory.
 
 ## Experiment Setup
-![a](https://github.com/emerttosun/Material-Classification-using-Thermal-Imaging/assets/138903517/5222c153-bf1b-4fc2-bd05-f9f289d880ea)
+![a](https://github.com/emerttosun/Material-Classification-using-Thermal-Imaging/assets/138903517/2bb0ed37-e4ae-446e-bce0-2874d3a9ba7b)
 The setup seen above belongs to one of the first trial setups and we made our first trial and recordings using this setup. The experimental setup for the proposed method includes a FLIR T-400 thermal camera, three OSRAM heater lamps, and a table where the lamps are positioned. 
 
 Various municipal solid waste objects made up of different materials like carton, metal and plastic are used for this work. Special attention was given to select waste items with non-smooth surfaces, ensuring a mixture of both smooth and uneven textures are present in material set. 
@@ -42,7 +42,8 @@ The temperature of the objects is inferred by calculating the average temperatur
 
 Here's the example of ROI.
 
-![bitirme1](https://github.com/emerttosun/Material-Classification-using-Thermal-Imaging/assets/138903517/0302f276-cf7f-4b14-b23d-aea2e2992dbd)
+
+![bitirme1](https://github.com/emerttosun/Material-Classification-using-Thermal-Imaging/assets/138903517/0a9028b9-ead3-43f3-84ab-003af078dd26)
 
 
 After obtaining average value within the ROI in each frame of the video, a low pass filter, Hann filter is applied. The aim is to remove the noise in obtained time series. At the end of this process, a time series that shows pixel intensity over time is obtained. 
@@ -50,7 +51,8 @@ After obtaining average value within the ROI in each frame of the video, a low p
 ## Feature Extraction
 Features are extracted from the time series. To extract features from the thermal data, the highest temperature point is identified as the reference point. 
 This process involves examining 5-second intervals from both the heating and cooling phases of the data. By analyzing these intervals, relevant features can be derived. 
-![Figure_1ddd](https://github.com/emerttosun/Material-Classification-using-Thermal-Imaging/assets/138903517/ea4f40ef-571b-4110-ba50-b7cac5c0a961)
+![Figure_1ddd](https://github.com/emerttosun/Material-Classification-using-Thermal-Imaging/assets/138903517/076fbeba-568d-4278-b977-c98745908aa5)
+
 
 The features are designed to leverage the relationship between a specific point and the preceding points. An exponential decay approach was employed to establish connections between points in the specified range. 
 This methodology effectively captures evolving patterns and relationships between the points, resulting in enhanced accuracy for material representation and classification. Our system is causal because it depends only on the present past values.
@@ -90,7 +92,8 @@ None of the time series used in testing were used for training. The results indi
 From the results discussed above, metal and carton classes are easiest to classify, while the hardest one is the plastic. 
 This is an expected result since the heat capacity of metal is the highest and the carton is the lowest. Heat capacity of plastic is in between so it is expected to be misclassified.
 
-![image](https://github.com/emerttosun/Material-Classification-using-Thermal-Imaging/assets/138903517/0431537f-7017-4536-906c-94f015a156bb)
+![image](https://github.com/emerttosun/Material-Classification-using-Thermal-Imaging/assets/138903517/47bf7a7e-f998-4432-a3fb-3a8a115d5920)
+
 
 ## Project Video
 You can reach the our project videos here!
